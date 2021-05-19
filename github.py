@@ -13,7 +13,7 @@ while True:
     t=t+1
     p=time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())
     print(p)
-    if t==6:
+    if t==600:
         
         print(t)
         t=0
@@ -27,7 +27,7 @@ while True:
 
     
     
-    #打印当前秒数
+
 
 
 
