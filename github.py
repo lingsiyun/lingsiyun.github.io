@@ -21,8 +21,8 @@ while True:
             content = f.read()        
             f.seek(0, 0)
             f.write(p+'\n'+content)
-        b=os.popen("cd /home/pi/github/git/lingsiyun && git add --all && git commit -m '注释' && git push").read()
-
+        b=os.popen("cd /home/pi/github/lingsiyun.github.io && git add --all && git commit -m '注释' && git push").read()
+        print(b)
 
     
     
